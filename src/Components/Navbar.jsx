@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import menu from "../assets/portfolioAssets/menu_open.svg";
 
 const Navbar = () => {
@@ -36,9 +36,9 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end">
-        <a className="btn btn-primary   mr-2  rounded-2xl text-gray-200   sm:inline-flex hover:shadow-lg transition-shadow ">
+        <Link className="btn  rounded-full px-6 py-3 text-white bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:bg-gradient-to-l hover:from-orange-500 hover:via-pink-500 hover:to-purple-500 transition-all duration-300">
           Connect with Me
-        </a>
+        </Link>
 
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
