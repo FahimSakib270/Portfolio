@@ -13,6 +13,7 @@
     "@tailwindcss/vite": "^4.1.7",
     "react": "^19.1.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-animated-progress-bar": "^1.1.2",
     "react-dom": "^19.1.0",
     "react-router": "^7.6.1",
     "tailwindcss": "^4.1.7"

@@ -10,7 +10,7 @@ const Navbar = () => {
       </li>
 
       <li>
-        <NavLink to="/about">About Me</NavLink>
+        <NavLink to="/about-details">About Me</NavLink>
       </li>
 
       <li>
@@ -32,11 +32,13 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-4 text-xl">{links}</ul>
+        <ul className="menu menu-horizontal px-1 gap-4 text-base font-medium">
+          {links}
+        </ul>
       </div>
 
       <div className="navbar-end">
-        <Link className="btn  rounded-full px-6 py-3 text-white bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:bg-gradient-to-l hover:from-orange-500 hover:via-pink-500 hover:to-purple-500 transition-all duration-300">
+        <Link className="btn hidden sm:flex  rounded-full px-6 py-3 text-white bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:bg-gradient-to-l hover:from-orange-500 hover:via-pink-500 hover:to-purple-500  hover:scale-110 transition-transform duration-300 ease-in-out">
           Connect with Me
         </Link>
 
@@ -46,7 +48,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="dropdown-content menu bg-base-200 rounded-box z-10 mt-3 w-52 p-2 text-xl shadow-lg"
+            className="dropdown-content menu bg-base-200 rounded-box z-10 mt-3 w-52 p-2 text-base font-medium shadow-lg"
           >
             {links}
           </ul>
