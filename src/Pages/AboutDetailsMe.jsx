@@ -11,6 +11,7 @@ import {
   FaBootstrap,
 } from "react-icons/fa";
 import { SiExpress, SiNetlify, SiTailwindcss, SiVercel } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
 
 const AboutDetailsMe = () => {
   const techs = [
@@ -24,6 +25,10 @@ const AboutDetailsMe = () => {
     {
       name: "Tailwind CSS",
       icon: <SiTailwindcss className="text-teal-400 text-4xl" />,
+    },
+    {
+      name: "Framer Motion",
+      icon: <TbBrandFramerMotion className="text-teal-400 text-4xl" />,
     },
     { name: "Node.js", icon: <FaNodeJs className="text-green-600 text-4xl" /> },
     { name: "Express", icon: <SiExpress className="text-gray-400 text-4xl" /> },

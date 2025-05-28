@@ -27,7 +27,10 @@ const Banner = () => {
         <Link className="btn rounded-full px-6 py-5 text-white bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:bg-gradient-to-l hover:from-orange-500 hover:via-pink-500 hover:to-purple-500  hover:border-white hover:border-2 hover:scale-110 transition-transform duration-300 ease-in-out">
           Connect with Me
         </Link>
-        <Link className="btn  rounded-full  px-6 py-5 text-white border hover:border-2 border-white hover:border-purple-600 hover:scale-110 transition-transform duration-300 ease-in-out">
+        <Link
+          to="/resume"
+          className="btn  rounded-full  px-6 py-5 text-white border hover:border-2 border-white hover:border-purple-600 hover:scale-110 transition-transform duration-300 ease-in-out"
+        >
           My resume
         </Link>
       </div>
